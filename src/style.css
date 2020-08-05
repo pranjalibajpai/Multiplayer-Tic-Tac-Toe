@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'font-1';
+    src:url('fonts/AstroSpace-eZ2Bg.ttf');
+}
+@font-face {
+    font-family: 'font-2';
+    src:url('fonts/MandatoryPlaything-nRRd0.ttf');
+}
+@font-face {
+    font-family: 'font-3';
+    src:url('fonts/Revamped-X3q1a.ttf');
+}
+body{
+	text-align:center;
+    font-family: 'font-2';
+    background-image: url("images/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.board {
+    margin: auto;
+    width: 350px;
+}
+.start-playing{
+	border: 10px solid #99FFFF;
+    border-radius:10px;
+    font-weight :bold;
+    font-family:font-1;
+    margin: auto;
+	box-shadow: 5px 10px 8px #888888;
+	width: 650px;
+	height: 500px;
+	margin-top: 50px;
+}
+.start-playing h2{
+	padding: 10px;
+    background-color: #5A8BCE;
+    box-shadow: 3px 3px 6px #0B3A97;
+}
+.start_playing a{
+    font-weight: bold;
+    font-family: 'font-2';
+    background-color: #4ECCB0;
+    border-radius: 8px;
+    margin: 3px;
+    padding: 15px;
+    height: 50px;
+    min-width: 55px;
+    font-size:100%;
+    border: none;
+    -webkit-transition: background-color 500ms; /* Safari */
+    transition: background-color 500ms;
+
+}
+.start_playing a:hover{
+    font-size: 1.5vw;
+    font-weight: bolder;
+    background-color: #77E0C9;
+    box-shadow: 0.5px 0.5px 5px black;
+    cursor: pointer; cursor: hand;
+    -webkit-transition: background-color 300ms; /* Safari */
+    transition: background-color 300ms;
+}
+.start_playing a.active{
+    border: 2px solid red;
+    background-color: yellow;
+    padding: 13px;
+    -webkit-transition: background-color 500ms; /* Safari */
+    transition: background-color 500ms;
+}
+.board button {
+    height: 100px;
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 3em;
+	background: #d5e6eb;
+	font-weight: 900;
+    font-family: font-3;
+	cursor: pointer;
+    opacity: 0.6;
+}
+.board button : hover{
+	opacity:0.8;
+}
